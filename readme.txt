@@ -41,8 +41,8 @@ Check out the [official site](http://www.igumbi.com/en/WordPress?utm_source=wpad
 
 * Download the plugin, add it to your blog in the plugin folder and activate it.
 * Go to the WordPress settings page (igumbi online bookings) and fill out the details. Get the 'Hotel code' from the [hotel settings page in igumbi](https://www.igumbi.net/settings/mine).
-* Add to any page, post, or as a sidebar widget. Integrate with shortcodes [igumbi_dialog] and [igumbi_avform] into your site template. [igumbi_dialog] needs to be laced where you want the response of the system.
-* Tweak and overwrite the CSS to match the look of your template via the igumbi backend or the setting page in WordPress.
+* Add to any page, post, or as a sidebar widget. Integrate with shortcodes [igumbi_dialog] and [igumbi_avform] into your site template. [igumbi_dialog] needs to be placed into your template/page where you want the response of the booking system. You can get all fancy with [igumbi_avform wide=true lang=es] to handle different layouts and languages from within your template.
+* Tweak and overwrite the CSS to match the look of your template via the igumbi backend or the settings page in WordPress.
 
 == Screenshots ==
        

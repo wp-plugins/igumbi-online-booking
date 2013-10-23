@@ -9,9 +9,9 @@
           <td style="padding: 5px 5px 7px 5px;">
             <input name="igumbi_hotel_id" type="text" id="igumbi_hotel_id" size=6 maxlength=100 style="width:100px; padding:6px; font-size:16px;"
             value="<?php echo get_option('igumbi_hotel_id'); ?>"/>
-          <p class="description">You will find the 7 character <b>hotel code</b> on the igumbi.com <a href="https://www.igumbi.net/settings/mine?locale=en">settings page</a>.<br/> 
-            To see it you need an account and need to be logged in at <a href="https://www.igumbi.net/login">igumbi</a>.<br/>
-            Create a new <a href="http://www.igumbi.com/trial?locale=en">trial account</a>.</p>
+          <p class="description">You will find the 7 character <b>hotel code</b> on the igumbi.com <a href="https://www.igumbi.net/settings/mine?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link">settings page</a>.<br/> 
+            To see it you need an account and need to be logged in at <a href="https://www.igumbi.net/login?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link">igumbi</a>.<br/>
+            Create a new <a href="http://www.igumbi.com/trial?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link">trial account</a>.</p>
           </td>
           
         </tr>
@@ -70,7 +70,7 @@
     
     <h2>Getting started:</h2>
     <ol>
-      <li>Sign-up for a <a href="http://www.igumbi.com/trial?locale=en" class="button button-primary">igumbi trial account</a> and enter the settings above.</li>
+      <li>Sign-up for a <a href="http://www.igumbi.com/trial?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link" class="button button-primary">igumbi trial account</a> and enter the settings above.</li>
       <li>Set up your property in igumbi: at least describe your productcategories and load a picture for each productcategory. Ensure your bookings have been entered so that the correct availability can be calculated before setting the booking tool live on the site.</li>
       <li>Create a testpage (or update your site template) and enter the the shortcode: [igumbi_avform] and [igumbi_dialog]. You can get all fancy with [igumbi_avform wide=true lang=es] to handle different layouts and languages. 
 

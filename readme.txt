@@ -5,8 +5,8 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: accommodations, availability, booking, bed and breakfast, booking system, reservation system, hotel, hotels, apartments, fewo, online booking, online reservation, rooms, holiday apartments, holiday rentals, B&B, fewo, hostel
 Requires at least: 3.0
-Tested up to: 3.6.1
-Stable tag: 1.1
+Tested up to: 3.8
+Stable tag: 1.2
 
 Generate commission free online bookings directly on your WordPress site by integrating the igumbi online booking tool.
 
@@ -67,6 +67,8 @@ You can overwrite the CSS of the booking tool via the igumbi backend (recommende
 The booking tool uses jQuery but has the "$" mapped to the "$igu" function. This is the one we use for the Javascript calls. We have tested extensively with other sites and javascript libraries. However the web is vast: So if you do encounter an issue, we are very eager to fix it. Please [let us know it](http://www.igumbi.com/de/kontakt).
 
 == Changelog ==
+= 1.2 = 
+ * Tested compatibility with Wordpress 3.8
 
 = 1.1 = 
  * The default language of the booking tool can be selected on the settings page.

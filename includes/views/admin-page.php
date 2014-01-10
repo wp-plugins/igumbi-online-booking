@@ -20,7 +20,7 @@
           <td style="padding: 5px 5px 7px 5px;">
             <select id="igumbi_language" name="igumbi_language">
               <?php
-                $langs = array("de","en","gr","ru","es", "nl");
+                $langs = array("de","en","gr","it","ru","es","nl","cz","pl");
                 foreach($langs as $lang) { 
                   echo "<option value = " . $lang . " ";
                   if(get_option("igumbi_language") == $lang) echo 'selected="selected"';
@@ -30,7 +30,7 @@
             </select>
 
             
-            <p class="description">Language: ISO code, Supported languages are de, en, gr, ru, es, nl</p>            
+            <p class="description">Language: ISO code, Supported languages are de, en, gr, it, ru, es, nl, cz, pl</p>            
           </td>
         </tr>
       

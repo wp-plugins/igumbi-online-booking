@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Tags: accommodations, availability, booking, bed and breakfast, booking system, reservation system, hotel, hotels, apartments, fewo, online booking, online reservation, rooms, holiday apartments, holiday rentals, B&B, fewo, hostel
 Requires at least: 3.0
 Tested up to: 3.8
-Stable tag: 1.3
+Stable tag: 1.4
 
 Generate commission free online bookings directly on your WordPress site by integrating the igumbi online booking tool.
 
@@ -64,14 +64,17 @@ You can overwrite the CSS of the booking tool via the igumbi backend (recommende
 
 = Which languages do you support? =
 
-The online booking tool is available in German, English, Greek, Russian, Spanish and Dutch.   
-Bear in Mind that you will need to translate the product names and descriptions and the productcategory descriptions into all the languages you want to support via the igumbi backend [Hotel data > Translations]. If you require other languages we can integrate it if you are willing to help with the translation: there are around 100 words/phrases in the booking tool. We support UTF8, so Asian languages should not be a problem.
+The online booking tool is available in German, English, Greek, Italian, Russian, Spanish, Dutch, Czech and Polish.   
+Bear in Mind that you will need to translate the product names and descriptions and the productcategory descriptions into all the languages you want to support via the igumbi backend [Hotel data > Translations]. If you require other languages, we can integrate them if you are willing to help with the translation: there are around 100 words/phrases in the booking tool. We support UTF8, so Asian languages should not be a problem.
 
 = The booking tool uses Javascript, what if there are conflicts (typically image gallery)? =
 
 The booking tool uses jQuery but has the "$" mapped to the "$igu" function. This is the one we use for the Javascript calls. We have tested extensively with other sites and javascript libraries. However the web is vast: So if you do encounter an issue, we are very eager to fix it. Please [let us know it](http://www.igumbi.com/de/kontakt).
 
 == Changelog ==
+= 1.4 = 
+ * Added Czech and Polish Language, language code cz,pl
+
 = 1.3 = 
  * Added Dutch Language, language code nl
 

@@ -75,7 +75,7 @@
       <li>Create a testpage (or update your site template) and enter the the shortcode: [igumbi_avform] and [igumbi_dialog]. You can get all fancy with [igumbi_avform wide=true lang=es] to handle different layouts and languages. 
 
 </li>
-      <li>Add the [igumbi_avform] to the sidebar widgets. Menu Appearance >> Widgets and pull it to the top under/above search - move it up high, as it will be your primary conversion goal.</li>
+      <li>Add the [igumbi_avform] to the sidebar widgets. Menu Appearance >> Widgets and pull it to the top under/above search - move it up high, as it is probably the primary conversion goal of your WordPress Site.</li>
       <li>Add the shortcode [igumbi_dialog] to your theme as the first item after <code>&lt;div id="content" role="main"&gt;</code> with <code>&lt;?php echo do_shortcode("[igumbi_dialog]");?&gt;</code>. <br/> This is where the response from the booking tool will land after an availability request has been made.</li>
     </ol>    
   </div>

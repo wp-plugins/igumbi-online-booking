@@ -3,31 +3,31 @@ Author: roland.oth
 Contributors: smtm
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
-Tags: accommodations, availability, booking, bed and breakfast, booking system, reservation system, hotel, hotels, apartments, fewo, online booking, online reservation, rooms, holiday apartments, holiday rentals, B&B, fewo, hostel
+Tags: accommodations, availability, booking, bed and breakfast, booking system, reservation system, hotel, hotels, apartments, fewo, online booking, online reservation, rooms, holiday apartments, holiday rentals, B&B, fewo, hostel,hotelsoftware, pms, buchungssystem, online hotel software, Belegungsplan, hotelverwaltung, reservierungssystem, ferienwohnungssoftware, zimmerverwaltung, revenuemanagement, yieldmanagement
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.4
+Tested up to: 3.9
+Stable tag: 1.5
 
-Generate commission free online bookings directly on your WordPress site by integrating the igumbi online booking tool.
+Generate commission free online bookings for your hotel, apartments, bed and breakfast, holiday-rentals or lodge directly on your WordPress site by integrating the igumbi online booking tool.
 
 == Description ==
 
-igumbi is a simple and fast online booking tool / online booking engine (also an online hotelsoftware / PMS and a revenue- / yield-management system). Used by hotels, holiday rentals: apartments or holiday houses.
+igumbi is a simple and fast online booking tool / online booking engine (also an online hotelsoftware / PMS and a revenue- / yield-management system). Used by hotels, bed and breakfasts, apartments, holiday rentals: apartments or holiday houses.
 
-The plugin makes the booking tool available to your WordPress site. You will use the igumbi backend to handle your daily business and reservations, send emails via email-templates like offers and confirmations, create invoices, assign rooms, check in and register your guests.
+The plugin makes the booking tool available to your WordPress site, without the need to manually manage free rooms and prices. You will use the igumbi backend to handle your daily business and reservations, send emails via email-templates like offers and confirmations, create invoices, assign rooms, check in and register your guests, track deposits.
 
-igumbi gives your site visitors dynamic room/apartment prices based on revenue management methods, which also implement an upselling strategy. This will help you, as the property owner, to earn more and pay less OTA comissions. 
+The igumbi booking tool gives your site visitors dynamic room/apartment prices based on revenue management methods, which also implement an upselling strategy. This helps you, as the property owner, to earn more and pay less OTA comissions for your online bookings. 
 
 The plugin is free to use, but you do [need an account](http://www.igumbi.com/trial?lang=en) with igumbi.com.
 
 = Create your igumbi account =
    
 A 30 day free trial account is available at [igumbi.com/trial](http://www.igumbi.com/trial?lang=en).
-Then go the [settings page](https://www.igumbi.net/settings/mine) and get the hotel code to hook up the online booking tool. 
+Then go the [settings page](https://www.igumbi.net/settings/mine) and get the 7 character hotel code to hook up the online booking tool with the wordpress plugin. 
 
-Before you set the tool live ensure that you have entered all reservations into the igumbi backend (at least for the critical dates) so that the correct daily availability can be calculated.
+Before you set the tool live, ensure that you have entered all reservations into the igumbi backend (at least for the critical dates) so that the correct daily availability can be calculated.
 
-= Display the booking box where you need it =
+= Display the booking tool where you need it =
 
 With the new plugin architecture, you can now leverage the flexibility of the shortcodes to display the elements of the igumbi booking tool in your pages or on your widgetized areas (sidebar, footer, header). 
 
@@ -42,7 +42,7 @@ Check out the [official site](http://www.igumbi.com/en/wordpress) for details an
 * Download the plugin, add it to your blog in the plugin folder and activate it.
 * Go to the WordPress settings page (igumbi online bookings) and fill out the details. Get the 'Hotel code' from the [hotel settings page in igumbi](https://www.igumbi.net/settings/mine).
 * Add to any page, post, or as a sidebar widget. Integrate with shortcodes [igumbi_dialog] and [igumbi_avform] into your site template. [igumbi_dialog] needs to be placed into your template/page where you want the response of the booking system. You can get all fancy with [igumbi_avform wide=true lang=es] to handle different layouts and languages from within your template.
-* Tweak and overwrite the CSS to match the look of your template via the igumbi backend or the settings page in WordPress.
+* Tweak and overwrite the CSS to match the look of your template via the igumbi backend or the custom CSS field in the settings page in the WordPress backend.
 
 == Screenshots ==
        
@@ -50,13 +50,13 @@ Check out the [official site](http://www.igumbi.com/en/wordpress) for details an
 2. The settings page to hook up the igumbi online booking tool
 3. igumbi trial sign up form
 4. Get the hotel code from the igumbi setting page
-5. Reservation board in the igumbi backend system
+5. Reservation table/board in the igumbi backend system
 
 == Frequently Asked Questions ==
 
 = Will this integrate a reservation backend into my WordPress blog? =
 
-No, this plugin will help you place the igumbi online booking tool into your WordPress site. To manage your rates, availability and reservations you use the igumbi backend.
+No, this plugin will help you place the igumbi online booking tool into your WordPress site. To manage your rates, availability and reservations you will use the igumbi backend.
 
 = How can I style of the booking tool to be in line with my theme? =
 
@@ -69,11 +69,14 @@ Bear in Mind that you will need to translate the product names and descriptions 
 
 = The booking tool uses Javascript, what if there are conflicts (typically image gallery)? =
 
-The booking tool uses jQuery but has the "$" mapped to the "$igu" function. This is the one we use for the Javascript calls. We have tested extensively with other sites and javascript libraries. However the web is vast: So if you do encounter an issue, we are very eager to fix it. Please [let us know it](http://www.igumbi.com/de/kontakt).
+The booking tool uses jQuery but has the "$" mapped to the "$igu" function. This is the one we use for the Javascript calls. We have tested extensively with other sites and javascript libraries. However the web is vast: if you do encounter an issue, we are very eager to fix it. Please [let us know it](http://www.igumbi.com/de/kontakt).
 
 == Changelog ==
+= 1.5 =
+ * Tested compatibility with Wordpress 3.9
+
 = 1.4 = 
- * Added Czech and Polish Language, language code cz,pl
+ * Added Czech and Polish Language: language code cz,pl
 
 = 1.3 = 
  * Added Dutch Language, language code nl

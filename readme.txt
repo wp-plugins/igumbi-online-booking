@@ -8,7 +8,7 @@ Requires at least: 3.0
 Tested up to: 3.9
 Stable tag: 1.5
 
-Generate commission free online bookings for your hotel, apartments, bed and breakfast, holiday-rentals or lodge directly on your WordPress site by integrating the igumbi online booking tool.
+Generate commission free online bookings directly on your WordPress site by integrating the igumbi online booking tool.
 
 == Description ==
 

@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Tags: accommodations, availability, booking, bed and breakfast, booking system, reservation system, hotel, hotels, apartments, fewo, online booking, online reservation, rooms, holiday apartments, holiday rentals, B&B, fewo, hostel,hotelsoftware, pms, buchungssystem, online hotel software, Belegungsplan, hotelverwaltung, reservierungssystem, ferienwohnungssoftware, zimmerverwaltung, revenuemanagement, yieldmanagement
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.5
+Stable tag: 1.6
 
 Generate commission free online bookings directly on your WordPress site by integrating the igumbi online booking tool.
 

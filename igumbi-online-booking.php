@@ -2,8 +2,8 @@
 /*
 Plugin Name: igumbi Online Booking
 Plugin URI: http://www.igumbi.com/en/wordpress?utm_source=wpadmin
-Description: Generate commission free online bookings directly on your Wordpress Site. igumbi.com is a simple and fast online booking tool / online booking engine (also a online hotelsoftware / PMS & a revenue / yield management system). igumbi gives you dynamic prices based on revenue management algorithms, which help you implement an upselling strategy. This will help you, as the property owner, to earn more and pay less OTA comissions. The plugin is free to use, but you do need an account with igumbi.com. A <a href='http://www.igumbi.com/trial?lang=en&utm_source=wpadmin'>free trial account</a> is available at <a href='http://www.igumbi.com/'>igumbi.com</a>.
-Version: 1.6
+Description: Generate commission free online bookings directly on your WordPress Site. igumbi.com is a simple and fast online booking tool / online booking engine (also an online hotelsoftware / PMS & a revenue / yield management system). igumbi gives you dynamic prices based on revenue management algorithms, which help you implement an upselling strategy. This will help you, as the property owner, to earn more and pay less OTA comissions. The plugin is free to use, but you do need an account with igumbi.com. A <a href='http://www.igumbi.com/trial?lang=en&utm_source=wpadmin'>free trial account</a> is available at <a href='http://www.igumbi.com/'>igumbi.com</a>.
+Version: 1.7
 Author: Roland Oth
 Author URI: http://www.igumbi.com
 License: GPLv3
@@ -15,7 +15,7 @@ function igumbi_booking_install()  {
   add_option("igumbi_hotel_id", '6BEA7AW', '', 'yes'); // Default is the igumbi Demo Hotel
   add_option("igumbi_language", 'de', '', 'yes');
   add_option("igumbi_wide", '0', '', 'yes');     
-  add_option("igumbi_custom_css", '', '', 'yes');     
+  add_option("igumbi_custom_css", '#avform {color:#333;width:220px;} /*tweak the CSS to adjust to your template */', '', 'yes');     
 }
 
 

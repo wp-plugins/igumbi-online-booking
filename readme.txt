@@ -3,10 +3,10 @@ Author: roland.oth
 Contributors: smtm
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
-Tags: accommodations, availability, booking, bed and breakfast, booking system, reservation system, hotel, hotels, apartments, fewo, online booking, online reservation, rooms, holiday apartments, holiday rentals, B&B, fewo, hostel,hotelsoftware, pms, buchungssystem, online hotel software, Belegungsplan, hotelverwaltung, reservierungssystem, ferienwohnungssoftware, zimmerverwaltung, revenuemanagement, yieldmanagement
+Tags: accommodations, availability, booking, bed and breakfast, booking system, reservation system, hotel, hotels, apartments, fewo, online booking, online reservation, rooms, holiday apartments, holiday rentals, B&B, fewo, hostel,hotelsoftware, pms, buchungssystem, online hotel software, Belegungsplan, hotelverwaltung, reservierungssystem, ferienwohnungssoftware, zimmerverwaltung, revenuemanagement, yieldmanagement, rezeptionssoftware, hotelbuchungssystem,
 Requires at least: 3.0
-Tested up to: 3.9
-Stable tag: 1.6
+Tested up to: 4.3.2
+Stable tag: 1.7
 
 Generate commission free online bookings directly on your WordPress site by integrating the igumbi online booking tool.
 
@@ -72,8 +72,11 @@ Bear in Mind that you will need to translate the product names and descriptions 
 The booking tool uses jQuery but has the "$" mapped to the "$igu" function. This is the one we use for the Javascript calls. We have tested extensively with other sites and javascript libraries. However the web is vast: if you do encounter an issue, we are very eager to fix it. Please [let us know it](http://www.igumbi.com/de/kontakt).
 
 == Changelog ==
+= 1.7 =
+ * Tested compatibility with WordPress 4.2.3 and adjusted install instructions
+
 = 1.5 =
- * Tested compatibility with Wordpress 3.9
+ * Tested compatibility with WordPress 3.9
 
 = 1.4 = 
  * Added Czech and Polish Language: language code cz,pl

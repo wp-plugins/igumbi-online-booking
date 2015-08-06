@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: igumbi Online Booking
-Plugin URI: http://www.igumbi.com/en/wordpress?utm_source=wpadmin
-Description: Generate commission free online bookings directly on your WordPress Site. igumbi.com is a simple and fast online booking tool / online booking engine (also an online hotelsoftware / PMS & a revenue / yield management system). igumbi gives you dynamic prices based on revenue management algorithms, which help you implement an upselling strategy. This will help you, as the property owner, to earn more and pay less OTA comissions. The plugin is free to use, but you do need an account with igumbi.com. A <a href='http://www.igumbi.com/trial?lang=en&utm_source=wpadmin'>free trial account</a> is available at <a href='http://www.igumbi.com/'>igumbi.com</a>.
-Version: 1.7
+Plugin URI: https://www.igumbi.com/en/wordpress?utm_source=wpadmin
+Description: Generate commission free online bookings directly on your WordPress Site. igumbi.com is a simple and fast online booking tool / online booking engine (also an online hotelsoftware / PMS & a revenue / yield management system). igumbi gives you dynamic prices based on revenue management algorithms, which help you implement an upselling strategy. This will help you, as the property owner, to earn more and pay less OTA comissions. The plugin is free to use, but you do need an account with igumbi.com. A <a href='https://www.igumbi.com/trial?lang=en&utm_source=wpadmin'>free trial account</a> is available at <a href='https://www.igumbi.com/'>igumbi.com</a>.
+Version: 1.8
 Author: Roland Oth
-Author URI: http://www.igumbi.com
+Author URI: https://www.igumbi.com
 License: GPLv3
 */
 register_activation_hook(__FILE__,'igumbi_booking_install'); 

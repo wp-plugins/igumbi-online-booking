@@ -11,7 +11,7 @@
             value="<?php echo get_option('igumbi_hotel_id'); ?>"/>
           <p class="description">You will find the 7 character <b>hotel code</b> on the igumbi.com <a href="https://www.igumbi.net/settings/mine?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link">settings page</a>.<br/> 
             To see it you need an account and need to be logged in at <a href="https://www.igumbi.net/login?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link">igumbi</a>.<br/>
-            Create a new <a href="http://www.igumbi.com/trial?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link">trial account</a>.</p>
+            Create a new <a href="https://www.igumbi.com/trial?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link">trial account</a>.</p>
           </td>
           
         </tr>
@@ -54,7 +54,7 @@
             <textarea id="igumbi_custom_css" name="igumbi_custom_css" style="width:600px;height:300px;"><?php echo get_option('igumbi_custom_css');?></textarea>
            <p class="description">
              You can overwrite the CSS provided by the igumbi booking tool.<br/>
-             Check the <a href="http://www.igumbi.com/stylesheets/seller.css" target="_blank">basic CSS</a> (mostly widths and dimensions of elements), the <a href="http://www.igumbi.com/stylesheets/sellerci.css" target="_blank">button and colors CSS</a> and the <a href="http://www.igumbi.com/stylesheets/date.css" target="_blank">date popup CSS</a> files.
+             Check the <a href="https://www.igumbi.com/stylesheets/seller.css" target="_blank">basic CSS</a> (mostly widths and dimensions of elements), the <a href="https://www.igumbi.com/stylesheets/sellerci.css" target="_blank">button and colors CSS</a> and the <a href="https://www.igumbi.com/stylesheets/date.css" target="_blank">date popup CSS</a> files.
            </p>            
           </td>
         </tr>
@@ -71,7 +71,7 @@
     
     <h2>Getting started:</h2>
     <ol>
-      <li>Sign-up for a <a href="http://www.igumbi.com/trial?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link" class="button button-primary">igumbi trial account</a> and enter the settings above.</li>
+      <li>Sign-up for a <a href="https://www.igumbi.com/trial?locale=en&utm_campaign=wpplugin&utm_source=adminpage&utm_medium=link" class="button button-primary">igumbi trial account</a> and enter the settings above.</li>
       <li>Set up your property in igumbi: at least describe your productcategories and load a picture for each productcategory. Ensure your bookings have been entered so that the correct availability can be calculated before setting the booking tool live on the WordPress site.</li>
       <li>Create a testpage (or update your site template) and enter the the shortcode: [igumbi_avform] and [igumbi_dialog]. You can get all fancy with [igumbi_avform wide=true lang=es] to handle different layouts and languages. 
 
